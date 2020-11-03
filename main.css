@@ -1,0 +1,120 @@
+
+*{ box-sizing: border-box; }
+
+body {
+    color: #0D0D0F;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    height: 100%;
+    font-family: 'Noto Serif', serif;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #0D0D0F;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hello-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    background-image: url('https://i.postimg.cc/SR7JHhV9/pexels-negative-space-160107.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+}
+.intro {
+    margin: auto;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.hello-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0.5);;
+    padding: 10px 30px;
+}
+
+.section-title {
+    font-weight: 300;
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
+.about {
+    background-color: #e6e6e6;
+    padding-bottom: 90px;
+}
+
+.about-text {
+    margin: 36px 0 0 0;
+    text-align: center;
+}
+
+
+.project {
+    display: block;
+    text-align: center;
+}
+.project i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    background-color: #9c93c7;
+    border-radius: 50%;
+    box-shadow: 0 0 30px -7px #0f0f0f;
+}
+
+.contact {
+    text-align: center;
+    background-color: #2e2e2e;
+    color: #fafafa;
+}
+
+
+.social-links i {
+    border: 3px solid;
+    width: 80px;
+    height: 80px;
+    line-height: 74px;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+.social-links p {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fafafa;
+}
+
+.social-links a:hover {
+    color: #e1e1e1;
+}
