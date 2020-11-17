@@ -54,10 +54,14 @@ section {
 .hello-title {
     margin: 0;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 70px;
     letter-spacing: 1px;
     background: rgba(0,0,0,0.5);;
-    padding: 10px 30px;
+    padding: 20px 40px;
+}
+
+.btn {
+    font-size: 20px;
 }
 
 .section-title {
@@ -118,3 +122,14 @@ section {
 .social-links a:hover {
     color: #e1e1e1;
 }
+
+@media (max-width: 900px) {
+    .hello-title {
+        font-size: 48px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+
+}
+

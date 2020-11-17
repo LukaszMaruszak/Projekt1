@@ -15,9 +15,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300;500&display=swap"
           rel="stylesheet">
 
+    <!-- Biblioteka do animacji -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
+
+<script>
+    AOS.init();
+</script>
+
 <header>
     <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #e3f2fd;">
         <a class="navbar-brand" href="#">Łukasz Maruszak</a>
@@ -39,9 +47,9 @@
 
 
 <section class="hello-page">
-    <div class="intro">
+    <div class="intro" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <h1 class="hello-title mb-4">Witaj na mojej stronie!</h1>
-        <button type="button" class="btn btn-info">Dowiedz się więcej</button>
+        <a href="#about" type="button" class="btn btn-info">Dowiedz się więcej</a>
     </div>
 </section>
 
@@ -67,7 +75,7 @@
 
             <div class="col-sm-6 p-3 mb-4 mb-sm-2">
                 <a href="#" class="project">
-                    <i class="fas fa-code text-dark"></i>
+                    <i class="fas fa-code text-dark" data-aos="zoom-in" data-aos-duration="600"></i>
                     <h3 class="project-title text-uppercase text-center text-primary mt-4">Projekt 2</h3>
                     <p class="project-description mt-2">Opis projektu</p>
                 </a>
@@ -76,7 +84,7 @@
 
             <div class="col-sm-6 p-3 mb-sm-2">
                 <a href="#" class="project">
-                    <i class="fas fa-code text-dark"></i>
+                    <i class="fas fa-code text-dark" data-aos="zoom-in" data-aos-duration="600"></i>
                     <h3 class="project-title text-uppercase text-center text-primary mt-4">Projekt 3</h3>
                     <p class="project-description mt-2">Opis projektu</p>
                 </a>
